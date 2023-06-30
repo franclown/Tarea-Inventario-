@@ -3,15 +3,18 @@
 #include <windows.h>
 
 void mostrarMenu(int opcionSeleccionada) {
-    printf("--------------\n");
-	printf("|Sale Car S.A|\n");
-    printf("--------------\n");
-    printf("%s Busqueda\n", opcionSeleccionada == 1 ? "->" : " ");
-    printf("%s Agregar \n", opcionSeleccionada == 2 ? "->" : " ");
-    printf("%s Lista \n", opcionSeleccionada == 3 ? "->" : " ");
-    printf("%s Actualizar \n", opcionSeleccionada == 4 ? "->" : " ");
-    printf("%s Eliminar \n", opcionSeleccionada == 5 ? "->" : " ");
-    printf("%s Salir\n", opcionSeleccionada == 6 ? "->" : " ");
+    printf("       --------------\n");
+	printf("       |Sale Car S.A|\n");
+    printf("       --------------\n");
+    printf("\n");
+    printf("\t.----------.\n");
+    printf("%s \t| Busqueda |\n", opcionSeleccionada == 1 ? "->" : " ");
+    printf("%s \t|  Agregar |\n", opcionSeleccionada == 2 ? "->" : " ");
+    printf("%s \t|   Lista  |\n", opcionSeleccionada == 3 ? "->" : " ");
+    printf("%s \t|Actualizar| \n", opcionSeleccionada == 4 ? "->" : " ");
+    printf("%s \t| Eliminar |\n", opcionSeleccionada == 5 ? "->" : " ");
+    printf("%s \t|   Salir  |\n", opcionSeleccionada == 6 ? "->" : " ");
+    printf("\t.----------.\n");
 }
 
 int main() {
@@ -61,9 +64,9 @@ int main() {
             
             break;
         case 3:
-        	printf("         -------\n");
-            printf("         |Lista|\n");  // MENU DE  TIPO DE STRUCT
-            printf("         -------\n");
+        	printf("\t  -------\n");
+            printf("\t  |Lista|\n");  // MENU DE  TIPO DE STRUCT
+            printf("\t  -------\n");
             printf("\n");
             printf("--------------------------\n");
             printf("|Tipo de Dato | Cantidad |\n");
