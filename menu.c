@@ -11,7 +11,7 @@ void mostrarMenu(int opcionSeleccionada) {
     printf("%s \t| Busqueda |\n", opcionSeleccionada == 1 ? "->" : " ");
     printf("%s \t|  Agregar |\n", opcionSeleccionada == 2 ? "->" : " ");
     printf("%s \t|   Lista  |\n", opcionSeleccionada == 3 ? "->" : " ");
-    printf("%s \t|Actualizar| \n", opcionSeleccionada == 4 ? "->" : " ");
+    printf("%s \t|Actualizar| \n",opcionSeleccionada == 4 ? "->" : " ");
     printf("%s \t| Eliminar |\n", opcionSeleccionada == 5 ? "->" : " ");
     printf("%s \t|   Salir  |\n", opcionSeleccionada == 6 ? "->" : " ");
     printf("\t.----------.\n");
